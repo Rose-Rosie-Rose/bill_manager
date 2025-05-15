@@ -1,46 +1,51 @@
-# Getting Started with Create React App
+# 📊 미납내역 정리 웹사이트 (Unpaid Manager)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📌 프로젝트 소개
 
-## Available Scripts
+이 프로젝트는 **은행별 입금 엑셀 파일**과 **청구서 정보**를 업로드하여,  
+**납부 여부를 자동으로 비교·정리**해주는 웹 기반 도구입니다.  
+별도의 백엔드 없이, **프론트엔드만으로 동작**하며 브라우저에서 모든 처리를 수행합니다.
 
-In the project directory, you can run:
+---
 
-### `yarn start`
+## ✅ 주요 기능
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- 은행별 엑셀 파일 업로드 (입금내역)
+- 청구서 정보 입력 또는 엑셀 업로드
+- 입금내역과 청구내역을 자동 비교
+- 납부된 항목과 미납된 항목을 분류
+- 결과를 화면에 표로 표시
+- 정리된 결과를 `.xlsx` 파일로 다운로드
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `yarn test`
+## 🛠 기술 스택
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React** – UI 구성
 
-### `yarn build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 사용 방법
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. 원하는 은행을 선택합니다.
+2. 해당 은행 양식의 **입금 엑셀 파일을 업로드**합니다.
+3. 청구서 정보를 **입력하거나, 청구 엑셀 파일을 업로드**합니다.
+4. 자동으로 **납부 여부가 비교되어 화면에 출력**됩니다.
+5. 결과는 **.xlsx 파일로 다운로드**할 수 있습니다.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `yarn eject`
+## 📂 향후 확장 계획
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- 다양한 은행 양식 대응 (국민은행, 신한은행, 농협 등)
+- 청구서 자동 파싱 기능
+- 금액 차이 허용 범위 옵션 추가
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 🙋🏻 만든 이유
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+은행과 거래처마다 다른 엑셀 양식 때문에 매번 납부 여부를 수작업으로 확인하는 번거로움을 해결하고자,  
+직관적이고 자동화된 정리 툴이 필요하다고 느껴 직접 개발하게 되었습니다.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
