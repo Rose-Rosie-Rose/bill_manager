@@ -1,3 +1,5 @@
+import { FileUpload } from '../components';
+
 export const HomePage = () => {
   return (
     <div>
@@ -5,6 +7,7 @@ export const HomePage = () => {
         <h1>미납정리</h1>
       </div>
       <div>
+        <FileUpload />
         <div>은행 선택 드롭박스</div>
         <div>
           <div>은행 입금내역 엑셀 시트 업로드</div>
