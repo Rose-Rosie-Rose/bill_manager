@@ -5,3 +5,4 @@ export * from './layout/NavBar/NavBar';
 export * from './layout/CommonLayout/CommonLayout';
 export * from './layout/TitleBox/TitleBox';
 export * from './homePage/FileUpload/FileUpload';
+export * from './homePage/UnpaidTable/UnpaidTable';
