@@ -1,0 +1,3 @@
+export const CommonLaylout = () => {
+  return <></>;
+};
